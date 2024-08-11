@@ -1,0 +1,74 @@
+// 整体app处理
+#app {
+  width: 1920px;
+  height: 1080px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transform-origin: left top;
+  overflow: hidden;
+  font-weight: bold;
+
+  background-color: rgb(0, 3, 25);
+
+  display: grid;
+  grid-template-rows: [r1] 6% [r2] 93.5% [r3];
+  grid-row-gap: 0.5%;
+}
+
+
+// ant菜单的定制化处理
+.ant-menu {
+  width: 300px !important;
+
+  background-color: rgb(0, 3, 25);
+  .ant-menu-item {
+    background-image: url("../assets/images/capsule1.png") !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .ant-menu-item-selected {
+    background-image: url("../assets/images/capsule.png") !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(0, 3, 25) !important;
+  }
+
+  .ant-menu-item,
+  .ant-menu-item-active {
+    width: 150px;
+    height: 40px !important;
+  }
+
+  .ant-menu-title-content {
+    position: relative;
+    left: 25px;
+    top: -3px;
+  }
+}
+
+// ant的下拉菜单触发按钮的定制化处理
+.ant-dropdown-trigger {
+  width: 120px !important;
+  height: 30px !important;
+  color: aliceblue;
+  font-weight: bold;
+  font-size: 14px;
+  border: none;
+  background-color: rgb(0, 3, 25);
+  background-image: url("../assets/images/capsule.png") !important;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+// ant数字输入框定制化处理
+.ant-input-number {
+  width: 90px !important;
+  // height: 25px !important;
+  font-size: 16px !important;
+  // font-weight: bolder !important;
+  text-align: center !important;
+  color: greenyellow !important;
+}
