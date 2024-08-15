@@ -33,7 +33,7 @@
           <!-- 标题部分 -->
           <dv-decoration8 style="width: 100%; height: 50px" />
           <!-- <span class="titleText"> 电熔镁砂熔炼过程智能决策系统  </span> -->
-          <span class="titleText"> 智能给煤系统远程监控维护平台  </span>
+          <span class="titleText"> 行人目标检测平台 </span>
           <dv-decoration8 :reverse="true" style="width: 100%; height: 50px" />
         </div>
         <div />
@@ -120,7 +120,7 @@ onUnmounted(() => {
   border-radius: 20px;
 
   display: grid;
-  grid-template-rows: 7% 93%;
+  grid-template-rows: 10% 90%;
 
   .firstLineContainer {
     // 第一行，用于放置装饰

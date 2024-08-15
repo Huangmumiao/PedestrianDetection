@@ -2,7 +2,8 @@
   <a-config-provider :locale="locale">
     <div id="app">
       <toptitle />
-      <mainPageCurrrent />
+      <!-- <mainPageCurrrent /> -->
+      <mainPage />
     </div>
   </a-config-provider>
 </template>
@@ -21,6 +22,9 @@ const locale = zhCN;
 import toptitle from "./components/layouts/toptitle.vue";
 // TODO 临时引入一下看效果
 import mainPageCurrrent from "./components/layouts/mainPageCurrrent.vue";
+import mainPage from "./components/layouts/mainPage.vue";
+
+
 
 provide("echarts", echarts);
 
